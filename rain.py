@@ -5,6 +5,33 @@ from sklearn.model_selection import train_test_split
 
 st.set_page_config(page_title="Rainfall Prediction", layout="centered")
 
+# Add a colorful gradient background and translucent containers
+page_bg = """
+<style>
+    [data-testid="stAppViewContainer"] {
+        background: linear-gradient(135deg,#a8edea 0%, #fed6e3 50%, #f6f3ff 100%);
+        background-attachment: fixed;
+    }
+    [data-testid="stHeader"], [data-testid="stToolbar"] {
+        background: rgba(0,0,0,0);
+    }
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, rgba(255,255,255,0.14), rgba(255,255,255,0.04));
+        backdrop-filter: blur(6px);
+    }
+    .block-container {
+        background: rgba(255,255,255,0.65);
+        border-radius: 12px;
+        padding: 1rem 1.5rem;
+    }
+    .stButton>button {
+        background-color: #1f77b4 !important;
+        color: white !important;
+    }
+</style>
+"""
+st.markdown(page_bg, unsafe_allow_html=True)
+
 st.title("Rainfall Prediction System")
 st.write("Synthetic rainfall prediction project")
 
