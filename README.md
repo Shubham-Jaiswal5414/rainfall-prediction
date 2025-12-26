@@ -121,6 +121,8 @@ This app is ready to be deployed on **Streamlit Cloud** for free:
 3. Connect your GitHub account
 4. Deploy the `rainfall-prediction` repository
 
+**Live demo:** https://rainfall-prediction-y3l6gqgmuop8cseew4854f.streamlit.app/
+
 ## 📊 Dataset Information
 
 - **Total Records**: 480 (8 states × 12 months × 5 daily variations)
