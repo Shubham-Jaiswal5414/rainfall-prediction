@@ -123,6 +123,12 @@ This app is ready to be deployed on **Streamlit Cloud** for free:
 
 **Live demo:** https://rainfall-prediction-y3l6gqgmuop8cseew4854f.streamlit.app/
 
+## Demo GIF / Animation
+
+Below is a small animated rain illustration included in this repository. You can replace `assets/rain.svg` with any GIF or animated SVG you prefer — GitHub will render the image inline in the README.
+
+![Rainfall demo](assets/rain.svg)
+
 ## 📊 Dataset Information
 
 - **Total Records**: 480 (8 states × 12 months × 5 daily variations)
